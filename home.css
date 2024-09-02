@@ -1,0 +1,1206 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--primary-text-color:#2F3B59;
+--primary-banner-color:#DDEEED;
+--secondary-text-darkgraycolor:#808080;
+--secondary-text-Midgraycolor:#BEBEBE;
+--secondary-text-Lightgraycolor:#E8E8E8;
+--white-color:#FFFFFF;
+--secondary-text-blackcolor:#000000;
+          
+}
+body{
+    width: 100%;
+    height:100%;
+}
+
+.why-choose-us{
+    padding: 70px 0px;
+}
+.fullcontent{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1320px;
+}
+.why-choose-us-content{
+    max-width: 1150px;
+    margin: auto;
+    text-align: center;
+}
+
+.why-choose-us-content h2{
+    text-transform: capitalize;
+    font-family: "Sora";
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 800px;
+    margin: auto;
+    color: #2F3B59;
+    margin-bottom: 20px;
+    line-height: 63px;
+}
+.why-choose-us-content p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6679;
+    font-weight: 400;
+    font-family: "Sora";
+}
+.why-choose-us-service{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.why-choose-us-service-content{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    width:10%;
+}
+
+.why-choose-us-service-content h3{
+font-weight: 700;
+font-size: 50px;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #5E6679;
+color: #fff;
+line-height: 63px;
+font-family: "Sora";
+}
+.why-choose-us-service-content span{
+    max-width: 120px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #2F3B59;
+    text-transform: capitalize;
+    font-family: "Sora";
+}
+.IphoneCases{
+    width: 1903px;
+    height: 936px;
+    background-color: #E2F3F5;
+}
+.SamsungCases{
+    width: 1903px;
+   height: 965px;
+}
+
+
+.IphoneContent{
+    padding: 80px;
+}
+.IphoneContent h2{
+    font-family: "Sora";
+    font-weight: 600;
+    color:var(--primary-text-color);
+    font-size: 50px;
+    line-height: 63px;
+}
+.IphoneContent-cardContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.cardcontent{
+    padding: 11px;
+    /* width: 313px;
+height: 524px; */
+border-radius: 18px;
+background-color: var(--white-color);
+margin-left: 5px;
+margin-right: 5px;
+display: flex;
+flex-direction: column;
+}
+
+
+.cardcontent a{
+    margin-top: 10px;
+text-decoration: none;
+font-family: "Sora";
+font-size: 16px;
+font-weight: 500;
+line-height: 20.16px;
+text-align: left;
+color:var(--primary-text-color);
+margin-bottom:5px;
+}
+.cardcontent .photo{
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cardcontent .photo img{
+    margin-right: 10px;
+}
+.cardcontent span{
+    color: var(--secondary-text-darkgraycolor);
+}
+.cardcontent .pricing{
+
+    display: flex;
+    align-items: center;
+    
+}
+.cardcontent .pricing span{
+    font-size: 16px;
+    font-family: "Sora";
+    font-weight: 300;
+    line-height: 20.16px;
+    margin-right: 10px;
+    color: var(--secondary-text-darkgraycolor);
+    
+}
+.cardcontent .pricing  span.newpara {
+    font-family: "Sora";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: left;    
+    color: var(--primary-text-color);
+    margin-left: 10px;
+}
+ .cardcontent .button-container{
+    
+    margin-top: 20px;
+ }
+.cardcontent button{
+    cursor: pointer;
+    font-size: 16px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    border-radius: 35px;
+    width: 100%;
+    line-height: 20.16px;
+    color: var(--white-color);
+    background-color: var(--primary-text-color);
+    font-family: "Sora";
+}
+ .cardcontent .cardcontent-information{
+    padding: 10px;
+ }
+ .cardcontent button img{
+    margin-left: 10px;
+ }
+ .IphoneContent .viewmore{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20.16px;
+    font-family: "Sora";
+    color: var(--primary-text-color);
+    font-weight: 500;
+ }
+ .Achievement{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--primary-text-color);
+    
+ }
+ .Achievement .fullcontent{
+    max-width: 1400px;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IphoneContent .view{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+ 
+
+.fullcontent .achievementcontent{
+
+    width: 23%;
+    padding: 0px 34px;
+    border-right: 1px solid var(--secondary-text-Lightgraycolor);
+
+}
+.achievementcontent  .achievementnumber{
+    display: flex;
+    align-items: center;
+   
+}
+
+.achievementcontent span.achievementnumber img{
+    margin-right: 20px;
+    width: 100%;
+    max-width: 48px;
+}
+.achievementcontent  .achievementnumber h2{
+    font-family: "Sora";
+font-size: 35px;
+font-weight: 600;
+line-height: 44.1px;
+text-align: left;
+color: var(--white-color);
+}
+.achievementcontent  .achievementdescription p{
+    font-family: "Sora";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.42px;
+    text-align: left;
+    color: #808080;
+    margin-top: 17px;
+    
+}
+.blogs{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.blogs .blogcontent{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.blogs h2{
+
+    font-family: "Sora";
+    font-weight: 700;
+    color:var(--primary-text-color);
+    font-size: 50px;
+    line-height: 63px;
+
+}
+.blogcontent .blogcontent--information{
+    display: flex;
+    flex-direction: column;
+    width:32%;
+    margin-right:20px;
+
+}
+.blogcontent .blogcontent--information span{
+    font-family: "Sora";
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 20px;
+color: var(--primary-text-color);
+}
+
+.blogcontent .blogcontent--information a{
+text-decoration: none;
+font-family: "Sora";
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+margin-bottom: 10px;
+color: var(--primary-text-color);
+}
+.blogcontent .blogcontent--information p{
+    text-decoration: none;
+    font-family: "Sora";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+    }
+
+.blogcontent .blogcontent--information  button{
+    width: 21%;
+    background: transparent;
+    border: none;
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: var(--primary-text-color);
+    border-bottom: 1px solid  var(--primary-text-color);
+    cursor: pointer;
+
+}
+ .blog-viewall a{
+display: flex;
+align-items: center;
+max-width: 232px;
+padding: 16px;
+justify-content: center;
+margin: auto;
+
+
+text-decoration: none;
+
+background: #2F3B59 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-family: "Sora" !important;
+    border-radius: 30px !important;
+    margin-top: 20px !important;
+    transition: .4s !important;
+
+}
+
+ .blog-viewall{
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+.footer{
+    margin-top: 30px;
+    border-top: .1rem solid var(--secondary-text-Lightgraycolor);
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background:#E2F3F5;
+
+}
+.footer--content-newsletter{
+    width: 47%;
+}
+
+.footer .footer--logo{
+text-align: center;
+margin-bottom: 3%;
+margin-top: -7%;
+}
+.footer--content{
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.footer--logo img{
+    width: 7%;
+    margin-top: 10px;
+}
+
+.footer--heading{
+font-size: 22px;
+font-weight: 600;
+line-height: 27.72px;
+text-align: left;
+color: #2f3b59;
+margin-bottom: 10px;
+font-family: "Sora";
+}
+.footer--content-newsletter p{
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+    color: #2f3b59;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.newsletter--form{
+    display: flex;
+    min-width: 100%;
+    
+    align-items: center;
+}
+.newsletter--form-field{
+    width: 55%;
+}
+.newsletter--form-field  .input-field{
+    width: 100%;
+
+    border: 1px solid var(--secondary-text-Lightgraycolor);
+   
+    outline: none;
+    padding: 22px;
+    border-radius: 12px;
+    background: var(--white-color);
+    font-family: "Sora";
+}
+    
+
+
+.newsletter--form-field ::placeholder{
+    font-family: "Sora";
+    color: #2F3B59;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+
+}
+
+.newsletter--form-button{
+
+    border-radius: 30px;
+    background: #2f3b59;
+    width: 20%;
+    margin-left: 57px;
+    padding: 15px;
+    margin-top: 4px;
+   
+}
+.newsletter--form-button span{
+
+font-family:"Sora";
+font-size: 16px;
+font-weight: 500;
+line-height: 20.16px;
+text-align: left;
+color: #fff;
+padding-right: 0;
+}
+.footer--menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 36px;
+    justify-content: space-between;
+   
+    
+}
+
+
+.footer--menu-items li {
+    width: 40%;
+    text-decoration: none;
+    margin-bottom: 30px;
+
+
+font-family: "Sora";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.64px;
+text-align: left;   
+color: var(--primary-text-color);
+}
+a{
+    text-decoration: none;
+}
+.Contactus{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer--Contactus-items{
+    display: flex;
+   
+    list-style: none;
+    margin-top: 25px;
+    flex-direction: column;
+
+}
+.footer--Contactus-items li {
+    width: 80%;
+    text-decoration: none;
+    margin-bottom: 13px;
+
+
+font-family: "Sora";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.64px;
+text-align: left;
+}
+.footer--bottom{
+    margin-top: 50px;
+
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+    
+    border-top: 1px solid #AACDCB;
+
+}
+
+.footer-bottom-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer--bottom-copyright-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.footer--bottom-copyright-items li{
+    font-family: "Sora";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    color:var(--primary-text-color);
+  
+}
+.footer--bottom-copyright-items li a{
+    text-decoration: underline;
+}
+
+.Services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   background: linear-gradient(180deg, rgba(114, 198, 205, 0.2) 0%, rgba(114, 198, 205, 0.2) 0.01%, rgba(114, 198, 205, 0.2) 76.4%, rgba(114, 198, 205, 0) 100%);
+   padding-left: 4%;
+   padding-right: 4%;
+   width: 100%;
+    
+}
+.Services--fullcontent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 25px;
+
+}
+.Services h2{
+    font-family: "Sora";
+font-size: 50px;
+font-weight: 700;
+line-height: 63px;
+text-align: center;
+color: var(--primary-text-color);
+text-transform: capitalize;
+
+}
+.Services--fullcontent-Content{
+    width: 35%;
+    position: relative;
+}
+.Services--information{
+    position: absolute;
+    top: 58%;
+    left: 7%;
+    right: 20%;
+}
+.Services--information h3{
+    font-family: "Sora";
+font-size: 16px;
+font-weight: 700;
+line-height: 20.16px;
+text-align: left;
+color: var(--white-color);
+margin-bottom: 5px;
+text-transform: capitalize;
+
+}
+.Services--information p{
+    font-family:"Sora";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.64px;
+text-align: left;
+color: var(--white-color);
+
+}
+.Services--information img{
+    position: absolute;
+    top: 118%;
+    
+}
+.Repairprocess{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.Repairprocess h2{
+    font-family: "Sora";
+font-size: 50px;
+font-weight: 600;
+line-height: 63px;
+text-align: left;
+color: var(--primary-text-color);
+margin-bottom: 20px;
+
+}
+
+.Repairprocess p{
+font-family:"Sora";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #5E6679;
+margin-bottom: 30px;
+}
+.Repair--content{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Repaircontent--information-description{
+    margin-bottom: 40px;
+}
+
+.Repaircontent--information-description span{
+
+font-family:"Sora";
+font-size: 44px;
+font-weight: 600;
+line-height: 55.44px;
+text-align: left;
+color: var(--primary-text-color);
+
+}
+
+.Repaircontent--information-description h2{
+font-family:"Sora";
+font-size: 22px;
+font-weight: 600;
+line-height: 27.72px;
+text-align: left;
+color: var(--primary-text-color);
+margin-bottom: 10px;
+text-transform: uppercase;
+margin-top: 20px;
+
+
+}
+
+.Repaircontent--information-descriptions h2{
+
+    font-family:"Sora";
+font-size: 22px;
+font-weight: 600;
+line-height: 27.72px;
+text-align: left;
+color: var(--primary-text-color);
+margin-bottom: 10px;
+text-transform: uppercase;
+margin-top: 20px;
+}
+
+.Repaircontent--information-descriptions{
+background: linear-gradient(90deg, rgba(114, 198, 205, 0.2) 0%, rgba(114, 198, 205, 0) 100%);
+margin-bottom: 40px;
+
+}
+
+.Repaircontent--information-descriptions span{
+
+    font-family:"Sora";
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55.44px;
+    text-align: left;
+    color: var(--primary-text-color); 
+}
+.Repaircontent--img{
+    position: relative;
+}
+.Repaircontent--img   .checkmail{
+    position: absolute;
+    top: 80%;
+    left: 76%;
+}
+.Repaircontent--img   .mail{
+    position: absolute;
+    top: -11%;
+    left: 7%;
+}
+
+.Testimonials--content{
+    /* align-items: center;
+    justify-content: space-between;
+    display: flex; */
+    margin-top: 45px;
+    margin-bottom: 55px;
+   
+}
+
+.Testimonials--fullcontent{
+    padding: 50px;
+}
+
+
+
+
+
+ .header{
+    position: relative;
+    padding-bottom: 80px;
+    /* background-image: url("https://revasol.co.uk/cdn/shop/files/Rectangle_30s.jpg?v=1715944930&width=2000"); */
+    
+ }
+ .header img{
+    width: 100%;
+ }
+ .location--content{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   width: 100%;
+    top: 0%;
+    border-bottom:1px solid var(--secondary-text-Midgraycolor);
+   
+ }
+ .location--content-information{
+    display: flex;
+    align-items: center;
+ }
+ .location--content-information img{
+    margin-right: 10px;
+ }
+ .location--content-information a{
+    font-family:"Sora";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.64px;
+
+text-decoration: none;
+color: var(--white-color)
+
+ }
+ .location--content-information img{
+    width: 5%;
+ }
+ .location-content-contact{
+    display: flex;
+    align-items: center;
+    margin-right: 52px;
+
+ }
+ .location-content-contact a{
+    font-family:"Sora";
+font-size: 14px;
+font-weight: 400;
+line-height: 17.64px;
+text-align: center;
+color: var(--white-color);
+margin-left: 10px;
+
+ }
+ .header--content{
+    position: absolute;
+    background: var(--white-color);
+    top: 12%;
+    left: 4%;
+    right: 11%;
+    padding: 22px;
+    border-radius: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .header--content .header--logo{
+    position: absolute;
+    left: -7px;
+    top: -23px;
+    width: 120px;
+ }
+ .header--menu-links{
+    
+    margin-left: 100px;
+ }
+ .header--menu-items a{
+margin-right: 20px  ;
+    font-family:"Sora";
+font-size: 16px;
+font-weight: 700;
+line-height: 20.16px;
+text-align: left;
+color: var(--primary-text-color);
+
+ }
+ .header--menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+ }
+
+ .header--icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+ }
+ .header--icons-content-info{
+  background: #DDEEED;
+    border-radius: 100px;;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    margin-left: 10px;
+ }
+ .header--icons-content-info img{
+    width: 16%;
+    position: absolute;
+    top: 17%;
+    left: 12%;
+ }
+ .header--icons-content{
+    display: flex;
+    align-items: center;
+    position: relative;;
+ }
+ .header--icons-content-info .profile{
+
+    width: 16%;
+    position: absolute;
+    top: 18%;
+    left: 46%;
+
+ }
+ .header--icons-content-info .bag{
+
+    width: 16%;
+    position: absolute;
+    top: 19%;
+    left: 79%;
+
+ }
+ .header-button{
+    text-decoration: none;
+    border-radius: 31px;
+    background: #2f3b59;
+    margin-left: 50px;
+    padding: 15px 58px 13px 29px;
+    color: #fff;
+    display: flex;
+    position: relative;
+    
+    align-items: center;
+ }
+ .header-button a{
+    font-family:"Sora";
+font-size: 16px;
+font-weight: 500;
+line-height: 20.16px;
+text-align: left;
+color: var(--white-color);
+
+ }
+ .circle{
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    position: absolute;
+    top: 17%;
+    left: 67%;
+
+ }
+ .header-button .arrowsign{
+    position: absolute;
+    top: 27%;
+    left: 70%;
+ }
+ .header-button  img{
+    width: 17%;
+ }
+
+
+
+ .header--content-information h2{
+    font-family: "Sora";
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88.2px;
+    text-align: center;
+    color: var(--white-color);
+    position: absolute;
+    top: 40%;
+    left: 24%;
+ }
+
+ .header--content-information p{
+    width: 44%;
+    font-family: "Sora";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: var(--white-color);
+    position: absolute;
+    top: 50%;
+    left: 23%;
+ }
+ 
+ .header--moredetail-button{
+    color: #2f3b59;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 7px 18px;
+    font-family: "Sora";
+    position: absolute;
+    top: 66%;
+    left: 34%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+
+ }
+ .header--moredetail-button a{
+    font-family:"Sora";
+font-size: 16px;
+font-weight: 500;
+line-height: 20.16px;
+text-align: left;
+color: var(--primary-text-color);
+
+
+ }
+ .circle2{
+    margin-left: 20px;
+    border-radius: 30px;
+    background:  var(--primary-text-color);
+ 
+    padding: 20px;
+ }
+ .header--moredetail-button .shoparrow{
+    position: absolute;
+    top: 23%;
+    width: 18%;
+    left: 67%;
+
+ }
+
+.header--moredetail .moreaboutus{
+
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: var(--white-color);
+    position: absolute;
+    top: 68%;
+    left: 45%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Testimonials h2{
+
+font-family:"Sora";
+font-size: 50px;
+font-weight: 600;
+line-height: 63px;
+text-align: left;
+color: var(--primary-text-color);
+padding: 20px;
+}
+
+
+.swiper-slide{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: var(--white-color);
+width: 470px;
+height: 342px;
+border-radius: 12px;
+
+}
+.swiper-slide h2{
+    font-family:"Sora";
+font-size: 24px;
+font-weight: 600;
+line-height: 30.24px;
+text-align: left;
+color: var(--primary-text-color);
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.swiper-slide p{
+    font-family:"Sora";
+font-size: 18px;
+font-weight: 400;
+line-height: 23.49px;
+text-align: left;
+color: var(--secondary-text-darkgraycolor);
+
+}
+.swiper-slide .comma{
+    position: absolute;
+    width: 4%;
+    top: 2%;
+    left: 2%;
+    
+}
+.swiper-slide-info{
+    width: 94%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #006487;
+}
+.swiper-slide-clientinfo img{
+    width: 13%;
+    margin-top: 20px;
+}
+.swiper-slide-clientinfo{
+    display: flex;
+}
+.swiper-slide-clientinfo span{
+    font-family:"Sora";
+font-size: 20px;
+font-weight: 500;
+line-height: 26.1px;
+text-align: left;
+color: var(--primary-text-color);
+
+}
+.swiper-slide-clientinfo p{
+    font-family:"Sora";
+font-size: 16px;
+font-weight: 400;
+line-height: 20.88px;
+text-align: left;
+color: var(--secondary-text-darkgraycolor);
+
+}
+.swiper-slide-clientinfo .clientdescription{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.swiper-slide-rating{
+    display: flex;
+    align-items: center;
+}
+.swiper-slide-rating span{
+    font-family:"Sora";
+font-size: 24px;
+font-weight: 400;
+line-height: 30.24px;
+text-align: left;
+color: var(--primary-text-color);
+margin-left: 10px;
+}
+.swiper-slide-rating img{
+    width: 45%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .swiper-slide {
+      border-radius: 12px;
+      
+      margin-top: 80px;
+      flex-shrink: 0;
+      width: 100%;
+      height:45%;
+      position: relative;
+      transition-property: transform;
+      display: block;
+      padding: 20px;
+      width: 500px;
+      margin-right: 30px;
+  }
+  .swiper-wrapper{
+      padding: 50px;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+.Testimonials{
+  padding-top: 60px;
+        padding-bottom: 80px;
+        background: linear-gradient(180deg, rgba(114, 198, 205, 0.2) 0%, rgba(114, 198, 205, 0.2) 76.4%, rgba(114, 198, 205, 0) 100%);
+}
+
+.viewmore{
+    text-align: center;
+    margin-top: 70px;
+}
+.viewmore a{
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 20.16px;
+    font-family: "Sora";
+    color: var(--primary-text-color);
+    font-weight: 500;
+
+}
+
+
+
+
+.slider {
+    position: relative;
+   
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    display: block;
+}
+
+.prev, .next {
+   border: 1px solid white;
+
+    position: absolute;
+    top: 34%;
+    width: auto;
+    padding: 16px;
+    
+    
+   
+    cursor: pointer;
+    background:var(--white-color);
+    border-radius: 35px;
+
+    user-select: none;
+}
+
+.prev {
+    left: 4%;
+}
+
+.next {
+    right: 4%;
+}
